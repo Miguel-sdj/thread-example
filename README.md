@@ -11,7 +11,7 @@ Feito pelo aluno Miguel Cabral de Carvalho da turma A
 clone o projeto.
 
 ```bash
-https://github.com/Miguel-sdj/thread-example
+git clone https://github.com/Miguel-sdj/thread-example
 ```
 
 depois caminhe até a página
