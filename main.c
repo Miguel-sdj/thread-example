@@ -6,18 +6,18 @@ int sizeArray = 0; // tamanho do array definido globalmente
 
 #define TAM_THREADS 3
 
-void *mediaNumero(int x[]) {
+void *mediaNumero(int tempArray[]) {
 
-        float mediaTotal = 0.0;
+        int mediaTotal = 0;
 
         for (int i = 0; i < sizeArray; i++)
         {
-                mediaTotal += x[i];
+                mediaTotal += tempArray[i];
         }
 
         mediaTotal = mediaTotal / sizeArray;
 
-        printf("The average value is %.2f\n", mediaTotal);
+        printf("The average value is %d\n", mediaTotal);
 
 }
 
